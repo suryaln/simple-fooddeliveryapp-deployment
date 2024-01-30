@@ -3,8 +3,8 @@
 docker-compose up -d
 
 #tagging the image:
-docker tag nodejs:web ravivarman46/nodejs:cicd
+docker tag nodejs:web suryaln/nodejs:web
 
 #pushing an image to dockerhub:
-docker push ravivarman46/nodejs:cicd
+docker push suryaln/nodejs:web
 echo "the image has been pushed to docker hub"
